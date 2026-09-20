@@ -1,0 +1,29 @@
+Nikto Web Vulnerability Scan – Week 5
+
+Target:
+http://testphp.vulnweb.com
+
+Command:
+nikto -h http://testphp.vulnweb.com
+
+Nikto Version:
+2.5.0
+
+Result:
+Nikto reported 0 hosts tested.
+
+Connectivity testing showed that the target hostname could be resolved and responded to ping, but HTTP and HTTPS connections from the Kali environment could not be established.
+
+HTTP connection:
+curl -I http://testphp.vulnweb.com
+Result: Failed to connect to port 80.
+
+HTTPS connection:
+curl -I https://testphp.vulnweb.com
+Result: Failed to connect to port 443.
+
+Observation:
+The Nikto vulnerability scan could not be completed because the web service was not reachable from the Kali environment.
+
+Conclusion:
+This result was documented as a connectivity limitation and was not treated as a confirmed vulnerability.

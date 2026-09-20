@@ -1,0 +1,23 @@
+Nmap Service Version Detection – Week 5
+
+Target: testphp.vulnweb.com
+Resolved IP: 44.228.249.3
+Nmap Version: 7.95
+
+Command:
+nmap -sV testphp.vulnweb.com
+
+Result:
+Host is up.
+
+All 1000 scanned ports on testphp.vulnweb.com (44.228.249.3) are in ignored states.
+
+Not shown:
+1000 filtered tcp ports (no-response)
+
+Service detection was performed, but no open TCP ports were available for service/version identification.
+
+Scan completed successfully with 1 host up.
+
+Observation:
+Because all scanned TCP ports were filtered, Nmap could not identify any running services or service versions on the scanned ports.

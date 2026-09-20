@@ -1,0 +1,23 @@
+Burp Suite HTTP Request Analysis – Request 2
+
+Environment:
+Authorized Ubuntu Apache lab server
+
+Proxy:
+127.0.0.1:8080
+
+Request Analysis:
+A second HTTP request was captured using Burp Suite HTTP History.
+
+The request was examined to understand:
+- HTTP method
+- Host information
+- Request path
+- HTTP headers
+- Browser-to-server communication
+
+Security Learning:
+The second captured request helped demonstrate that multiple browser actions can generate separate HTTP requests that can be inspected through Burp Suite.
+
+Note:
+No credentials or sensitive session information was intentionally documented.

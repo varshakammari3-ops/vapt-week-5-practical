@@ -1,0 +1,21 @@
+Nmap Basic Scan – Week 5
+
+Target: testphp.vulnweb.com
+Resolved IP: 44.228.249.3
+Nmap Version: 7.95
+
+Command:
+nmap testphp.vulnweb.com
+
+Result:
+Host is up.
+
+All 1000 scanned ports on testphp.vulnweb.com (44.228.249.3) are in ignored states.
+
+Not shown:
+1000 filtered tcp ports (no-response)
+
+Scan completed successfully with 1 host up.
+
+Observation:
+The target responded to the Nmap scan, but the 1000 scanned TCP ports were reported as filtered with no response. No open TCP ports were identified by this basic scan.

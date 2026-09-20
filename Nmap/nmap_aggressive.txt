@@ -1,0 +1,33 @@
+Nmap Aggressive Scan – Week 5
+
+Target: testphp.vulnweb.com
+Resolved IP: 44.228.249.3
+Nmap Version: 7.95
+
+Command:
+nmap -A testphp.vulnweb.com
+
+Result:
+Host is up.
+
+All 1000 scanned ports on testphp.vulnweb.com (44.228.249.3) are in ignored states.
+
+Not shown:
+1000 filtered tcp ports (no-response)
+
+OS detection:
+OSScan results may be unreliable because Nmap could not find at least 1 open and 1 closed port.
+
+Aggressive OS guesses were generated, but:
+No exact OS matches were found.
+
+Network distance:
+1 hop
+
+Traceroute:
+1 hop to 44.228.249.3
+
+OS and Service detection was performed.
+
+Observation:
+The aggressive scan could not determine the exact operating system or services because no suitable open/closed ports were available for reliable detection. The OS guesses should therefore not be treated as confirmed identification.
